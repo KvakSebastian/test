@@ -1,0 +1,256 @@
+body {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 80px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "S, tay Con" */
+  letter-spacing: 2.25px;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.banner {
+  background: url("../img/1.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.banner-content {
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #f63c3c;
+}
+
+.logo a img {
+  width: 26px;
+  height: 47px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+menu li a img {
+  padding: 28px 20px 28px 26px;
+  margin-left: 20px;
+}
+
+.menu_item {
+  margin-left: 20px;
+  position: relative;
+}
+
+.menu_item:hover .menudrop{
+opacity: 1;
+}
+
+.menudrop {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  color: #ffffff;
+
+}
+
+.language {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+}
+
+.menu a.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-article {
+  opacity: 0.7;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.second-article {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.connect-article {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.form-connect {
+  display: flex;
+  height: 40px;
+}
+
+input[type="email"] {
+  height: 40px;
+  padding: 0;
+  border: none;
+  width: 240px;
+  outline: none;
+}
+
+input[type="email"]::placeholder {
+  color: #555555;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-left: 18px;
+}
+
+.btn {
+  background-color: #f63c3c;
+  border: none;
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 9px 0;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  margin: 0;
+}
+
+.twitter {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.twitter p {
+  margin: 20px;
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+.end {
+  margin-left: 45px;
+  margin-top: -16px;
+}
+
+.textend {
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.14px;
+  margin: 0;
+}
+
+.time {
+  color: #959595;
+  font-family: Teko;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-top: 0px;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.footer-wrap p {
+  color: #959595;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.33px;
+  color: #ffffff;
+  letter-spacing: 0.33px;
+}
+
+.foot-menu {
+  display: flex;
+  list-style: none;
+}
+
+.foot-menu {
+  color: #959595;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.33px;
+}
